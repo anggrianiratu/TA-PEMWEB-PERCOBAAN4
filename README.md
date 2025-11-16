@@ -15,11 +15,16 @@ mengedit data yang sudah ada, dan menghapus kontak. Seluruh data disimpan sement
 1. Install dan jalankan XAMPP
 2. Letakkan folder project ke dalam:
    ```
-   htdocs/  (XAMPP)
+   htdocs/manajemen-kontak/  (XAMPP)
    ```
-4. Jalankan Apache
+4. Jalankan Apache melalui XAMPP Control Panel
 5. Buka browser dan akses:
     ```
     http://localhost/manajemen-kontak/ 
     ```
+### Author
+* Nama: Anggriani Luthfiyah Ratu
+* NPM: 2315061058
+* Mata Kuliah: Praktikum Pemrograman Web
+
   
