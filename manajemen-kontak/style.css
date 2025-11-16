@@ -1,0 +1,275 @@
+/* Mocha Earth: #4B3935 */
+/* Vanilla Cream: #F0E7D5 */
+
+:root {
+    --mocha: #4B3935;
+    --vanilla: #F0E7D5;
+    --mocha-light: #6b5955;
+    --mocha-dark: #3a2c29;
+}
+
+/* CSS Reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: #faf8f3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Banner */
+.header-banner {
+    background: var(--mocha);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.header-banner h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* Back Button - Paling Kiri */
+.back-button {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 15px;
+}
+
+.info-badge {
+    background: rgba(240, 231, 213, 0.2);
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-weight: 500;
+    border: 1px solid rgba(240, 231, 213, 0.3);
+    font-size: 0.9rem;
+}
+
+/* Section Header */
+.section-header {
+    border-left: 4px solid var(--mocha);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Colors */
+.bg-mocha {
+    background-color: var(--mocha) !important;
+}
+
+.text-vanilla {
+    color: var(--vanilla) !important;
+}
+
+.text-vanilla-light {
+    color: rgba(240, 231, 213, 0.8) !important;
+}
+
+.text-mocha {
+    color: var(--mocha) !important;
+}
+
+.bg-vanilla-light {
+    background-color: #faf8f3;
+}
+
+/* Buttons */
+.btn-mocha {
+    background: var(--mocha);
+    color: var(--vanilla);
+    border: none;
+    font-weight: 600;
+}
+
+.btn-mocha:hover {
+    background: var(--mocha-dark);
+    color: var(--vanilla);
+}
+
+.btn-lg {
+    padding: 14px 28px;
+    font-size: 1.1rem;
+}
+
+.badge.bg-mocha {
+    background-color: var(--mocha) !important;
+    font-size: 0.9rem;
+    padding: 8px 12px;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-footer {
+    border-top: 2px solid var(--mocha-light);
+    padding: 15px 20px;
+}
+
+/* Table Styling */
+.modern-table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table-mocha {
+    background: var(--mocha);
+    color: var(--vanilla);
+}
+
+.table-mocha th {
+    border: none;
+    padding: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.modern-table tbody tr {
+    border-bottom: 1px solid #e9ecef;
+}
+
+.modern-table tbody tr:hover {
+    background-color: rgba(240, 231, 213, 0.2);
+}
+
+.modern-table tbody td {
+    padding: 15px;
+    vertical-align: middle;
+}
+
+/* Empty State */
+.empty-state {
+    background: white;
+    border-radius: 12px;
+    padding: 60px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.empty-icon {
+    font-size: 4rem;
+    color: var(--mocha-light);
+    opacity: 0.4;
+}
+
+/* Alerts */
+.alert {
+    border: none;
+    border-radius: 10px;
+    padding: 16px 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Form Controls */
+.form-control {
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.form-control:focus {
+    border-color: var(--mocha);
+    box-shadow: 0 0 0 0.15rem rgba(75, 57, 53, 0.1);
+}
+
+.form-label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--mocha);
+}
+
+/* Footer */
+footer {
+    background: var(--mocha);
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--vanilla);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--mocha);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--mocha-dark);
+}
+
+/* Button Actions */
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.btn-warning:hover {
+    background-color: #ffb300;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    font-weight: 600;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Icon Styling */
+.bi {
+    vertical-align: middle;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header-banner h2 {
+        font-size: 1.3rem;
+    }
+    
+    .info-badge {
+        font-size: 0.8rem;
+        padding: 8px 12px;
+        margin-bottom: 10px;
+    }
+    
+    .table {
+        font-size: 0.85rem;
+    }
+    
+    .btn-sm {
+        padding: 6px 10px;
+        font-size: 0.8rem;
+    }
+    
+    .modern-table tbody td {
+        padding: 12px 8px;
+    }
+}
+
+/* Shadow Effects */
+.shadow-lg {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05) !important;
+}
